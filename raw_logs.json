@@ -1,0 +1,902 @@
+[
+  {
+    "user_id": "user_8",
+    "timestamp": "2025-05-13T23:30:47.448076",
+    "action_type": "login",
+    "metadata": {
+      "device": "Android",
+      "location": "Munich"
+    }
+  },
+  {
+    "user_id": "user_10",
+    "timestamp": "2025-05-13T23:38:47.448111",
+    "action_type": "purchase",
+    "metadata": {
+      "device": "iOS",
+      "location": "Munich"
+    }
+  },
+  {
+    "user_id": "user_10",
+    "timestamp": "2025-05-13T02:40:47.448125",
+    "action_type": "login",
+    "metadata": {
+      "device": "iOS",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_9",
+    "timestamp": "2025-05-10T22:12:47.448137",
+    "action_type": "login",
+    "metadata": {
+      "device": "iOS",
+      "location": "Cairo"
+    }
+  },
+  {
+    "user_id": "user_3",
+    "timestamp": "2025-05-13T16:39:47.448148",
+    "action_type": "login",
+    "metadata": {
+      "device": "iOS",
+      "location": "Munich"
+    }
+  },
+  {
+    "user_id": "user_7",
+    "timestamp": "2025-05-10T00:49:47.448155",
+    "action_type": "add_to_cart",
+    "metadata": {
+      "device": "Android",
+      "location": "Cairo"
+    }
+  },
+  {
+    "user_id": "user_6",
+    "timestamp": "2025-05-11T06:47:47.448161",
+    "action_type": "view_item",
+    "metadata": {
+      "device": "Android",
+      "location": "Cairo"
+    }
+  },
+  {
+    "user_id": "user_10",
+    "timestamp": "2025-05-11T15:27:47.448171",
+    "action_type": "login",
+    "metadata": {
+      "device": "iOS",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_9",
+    "timestamp": "2025-05-11T09:56:47.448182",
+    "action_type": "logout",
+    "metadata": {
+      "device": "Android",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_3",
+    "timestamp": "2025-05-09T16:14:47.448190",
+    "action_type": "logout",
+    "metadata": {
+      "device": "Web",
+      "location": "Cairo"
+    }
+  },
+  {
+    "user_id": "user_8",
+    "timestamp": "2025-05-14T21:38:47.448196",
+    "action_type": "purchase",
+    "metadata": {
+      "device": "Android",
+      "location": "Berlin"
+    }
+  },
+  {
+    "user_id": "user_6",
+    "timestamp": "2025-05-13T01:08:47.448202",
+    "action_type": "add_to_cart",
+    "metadata": {
+      "device": "Android",
+      "location": "Munich"
+    }
+  },
+  {
+    "user_id": "user_10",
+    "timestamp": "2025-05-11T20:27:47.448207",
+    "action_type": "purchase",
+    "metadata": {
+      "device": "Web",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_2",
+    "timestamp": "2025-05-16T01:44:47.448213",
+    "action_type": "purchase",
+    "metadata": {
+      "device": "Android",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_4",
+    "timestamp": "2025-05-12T14:00:47.448219",
+    "action_type": "logout",
+    "metadata": {
+      "device": "iOS",
+      "location": "Munich"
+    }
+  },
+  {
+    "user_id": "user_6",
+    "timestamp": "2025-05-15T12:02:47.448227",
+    "action_type": "login",
+    "metadata": {
+      "device": "Web",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_6",
+    "timestamp": "2025-05-11T07:14:47.448236",
+    "action_type": "view_item",
+    "metadata": {
+      "device": "Web",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_6",
+    "timestamp": "2025-05-09T23:12:47.448245",
+    "action_type": "view_item",
+    "metadata": {
+      "device": "Web",
+      "location": "Cairo"
+    }
+  },
+  {
+    "user_id": "user_4",
+    "timestamp": "2025-05-15T09:10:47.448256",
+    "action_type": "purchase",
+    "metadata": {
+      "device": "Web",
+      "location": "Munich"
+    }
+  },
+  {
+    "user_id": "user_4",
+    "timestamp": "2025-05-13T13:24:47.448265",
+    "action_type": "add_to_cart",
+    "metadata": {
+      "device": "iOS",
+      "location": "Berlin"
+    }
+  },
+  {
+    "user_id": "user_5",
+    "timestamp": "2025-05-14T07:09:47.448270",
+    "action_type": "view_item",
+    "metadata": {
+      "device": "Android",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_4",
+    "timestamp": "2025-05-14T08:20:47.448276",
+    "action_type": "view_item",
+    "metadata": {
+      "device": "Android",
+      "location": "Berlin"
+    }
+  },
+  {
+    "user_id": "user_3",
+    "timestamp": "2025-05-14T05:04:47.448413",
+    "action_type": "logout",
+    "metadata": {
+      "device": "Android",
+      "location": "Cairo"
+    }
+  },
+  {
+    "user_id": "user_9",
+    "timestamp": "2025-05-10T16:28:47.448430",
+    "action_type": "view_item",
+    "metadata": {
+      "device": "Android",
+      "location": "Cairo"
+    }
+  },
+  {
+    "user_id": "user_9",
+    "timestamp": "2025-05-15T04:30:47.448443",
+    "action_type": "view_item",
+    "metadata": {
+      "device": "Android",
+      "location": "Munich"
+    }
+  },
+  {
+    "user_id": "user_3",
+    "timestamp": "2025-05-10T16:16:47.448453",
+    "action_type": "add_to_cart",
+    "metadata": {
+      "device": "Web",
+      "location": "Cairo"
+    }
+  },
+  {
+    "user_id": "user_7",
+    "timestamp": "2025-05-13T22:15:47.448463",
+    "action_type": "view_item",
+    "metadata": {
+      "device": "Web",
+      "location": "Munich"
+    }
+  },
+  {
+    "user_id": "user_10",
+    "timestamp": "2025-05-12T14:13:47.448473",
+    "action_type": "purchase",
+    "metadata": {
+      "device": "Android",
+      "location": "Cairo"
+    }
+  },
+  {
+    "user_id": "user_5",
+    "timestamp": "2025-05-14T01:58:47.448482",
+    "action_type": "login",
+    "metadata": {
+      "device": "iOS",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_3",
+    "timestamp": "2025-05-12T21:49:47.448496",
+    "action_type": "logout",
+    "metadata": {
+      "device": "Web",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_4",
+    "timestamp": "2025-05-09T21:07:47.448506",
+    "action_type": "view_item",
+    "metadata": {
+      "device": "Android",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_3",
+    "timestamp": "2025-05-12T07:27:47.448516",
+    "action_type": "purchase",
+    "metadata": {
+      "device": "Web",
+      "location": "Cairo"
+    }
+  },
+  {
+    "user_id": "user_3",
+    "timestamp": "2025-05-09T19:58:47.448530",
+    "action_type": "login",
+    "metadata": {
+      "device": "Web",
+      "location": "Munich"
+    }
+  },
+  {
+    "user_id": "user_8",
+    "timestamp": "2025-05-10T20:04:47.448540",
+    "action_type": "purchase",
+    "metadata": {
+      "device": "Web",
+      "location": "Munich"
+    }
+  },
+  {
+    "user_id": "user_4",
+    "timestamp": "2025-05-12T06:58:47.448550",
+    "action_type": "purchase",
+    "metadata": {
+      "device": "Android",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_8",
+    "timestamp": "2025-05-09T22:56:47.448557",
+    "action_type": "view_item",
+    "metadata": {
+      "device": "Android",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_3",
+    "timestamp": "2025-05-15T15:45:47.448563",
+    "action_type": "view_item",
+    "metadata": {
+      "device": "Android",
+      "location": "Berlin"
+    }
+  },
+  {
+    "user_id": "user_1",
+    "timestamp": "2025-05-12T17:02:47.448569",
+    "action_type": "logout",
+    "metadata": {
+      "device": "Web",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_8",
+    "timestamp": "2025-05-11T01:28:47.448574",
+    "action_type": "login",
+    "metadata": {
+      "device": "iOS",
+      "location": "Munich"
+    }
+  },
+  {
+    "user_id": "user_5",
+    "timestamp": "2025-05-13T19:36:47.448580",
+    "action_type": "purchase",
+    "metadata": {
+      "device": "iOS",
+      "location": "Cairo"
+    }
+  },
+  {
+    "user_id": "user_6",
+    "timestamp": "2025-05-09T23:38:47.448586",
+    "action_type": "login",
+    "metadata": {
+      "device": "Web",
+      "location": "Munich"
+    }
+  },
+  {
+    "user_id": "user_1",
+    "timestamp": "2025-05-10T22:10:47.448594",
+    "action_type": "login",
+    "metadata": {
+      "device": "Android",
+      "location": "Cairo"
+    }
+  },
+  {
+    "user_id": "user_3",
+    "timestamp": "2025-05-11T15:52:47.448599",
+    "action_type": "add_to_cart",
+    "metadata": {
+      "device": "Android",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_8",
+    "timestamp": "2025-05-12T18:58:47.448605",
+    "action_type": "logout",
+    "metadata": {
+      "device": "iOS",
+      "location": "Berlin"
+    }
+  },
+  {
+    "user_id": "user_2",
+    "timestamp": "2025-05-16T07:50:47.448610",
+    "action_type": "view_item",
+    "metadata": {
+      "device": "iOS",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_4",
+    "timestamp": "2025-05-11T13:10:47.448616",
+    "action_type": "purchase",
+    "metadata": {
+      "device": "Android",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_3",
+    "timestamp": "2025-05-13T21:25:47.448622",
+    "action_type": "login",
+    "metadata": {
+      "device": "Android",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_7",
+    "timestamp": "2025-05-14T19:07:47.448627",
+    "action_type": "add_to_cart",
+    "metadata": {
+      "device": "Web",
+      "location": "Munich"
+    }
+  },
+  {
+    "user_id": "user_1",
+    "timestamp": "2025-05-16T09:46:47.448632",
+    "action_type": "add_to_cart",
+    "metadata": {
+      "device": "iOS",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_7",
+    "timestamp": "2025-05-15T05:57:47.448638",
+    "action_type": "purchase",
+    "metadata": {
+      "device": "iOS",
+      "location": "Cairo"
+    }
+  },
+  {
+    "user_id": "user_5",
+    "timestamp": "2025-05-11T17:10:47.448643",
+    "action_type": "logout",
+    "metadata": {
+      "device": "Web",
+      "location": "Cairo"
+    }
+  },
+  {
+    "user_id": "user_9",
+    "timestamp": "2025-05-14T18:16:47.448650",
+    "action_type": "add_to_cart",
+    "metadata": {
+      "device": "Web",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_3",
+    "timestamp": "2025-05-13T22:15:47.448655",
+    "action_type": "view_item",
+    "metadata": {
+      "device": "iOS",
+      "location": "Munich"
+    }
+  },
+  {
+    "user_id": "user_7",
+    "timestamp": "2025-05-12T12:22:47.448660",
+    "action_type": "logout",
+    "metadata": {
+      "device": "Web",
+      "location": "Munich"
+    }
+  },
+  {
+    "user_id": "user_6",
+    "timestamp": "2025-05-14T12:39:47.448666",
+    "action_type": "view_item",
+    "metadata": {
+      "device": "iOS",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_4",
+    "timestamp": "2025-05-11T02:24:47.448672",
+    "action_type": "add_to_cart",
+    "metadata": {
+      "device": "Web",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_10",
+    "timestamp": "2025-05-12T06:00:47.448678",
+    "action_type": "purchase",
+    "metadata": {
+      "device": "iOS",
+      "location": "Cairo"
+    }
+  },
+  {
+    "user_id": "user_1",
+    "timestamp": "2025-05-12T16:07:47.448684",
+    "action_type": "purchase",
+    "metadata": {
+      "device": "Android",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_2",
+    "timestamp": "2025-05-12T18:36:47.448689",
+    "action_type": "login",
+    "metadata": {
+      "device": "Web",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_9",
+    "timestamp": "2025-05-11T19:24:47.448695",
+    "action_type": "view_item",
+    "metadata": {
+      "device": "Web",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_9",
+    "timestamp": "2025-05-10T12:43:47.448700",
+    "action_type": "login",
+    "metadata": {
+      "device": "Web",
+      "location": "Munich"
+    }
+  },
+  {
+    "user_id": "user_8",
+    "timestamp": "2025-05-12T09:43:47.448706",
+    "action_type": "login",
+    "metadata": {
+      "device": "Web",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_9",
+    "timestamp": "2025-05-09T16:17:47.448711",
+    "action_type": "purchase",
+    "metadata": {
+      "device": "Web",
+      "location": "Munich"
+    }
+  },
+  {
+    "user_id": "user_5",
+    "timestamp": "2025-05-13T00:28:47.448717",
+    "action_type": "add_to_cart",
+    "metadata": {
+      "device": "iOS",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_9",
+    "timestamp": "2025-05-13T17:34:47.448723",
+    "action_type": "add_to_cart",
+    "metadata": {
+      "device": "Android",
+      "location": "Cairo"
+    }
+  },
+  {
+    "user_id": "user_9",
+    "timestamp": "2025-05-13T22:41:47.448729",
+    "action_type": "add_to_cart",
+    "metadata": {
+      "device": "Web",
+      "location": "Berlin"
+    }
+  },
+  {
+    "user_id": "user_7",
+    "timestamp": "2025-05-15T11:12:47.448736",
+    "action_type": "add_to_cart",
+    "metadata": {
+      "device": "Web",
+      "location": "Cairo"
+    }
+  },
+  {
+    "user_id": "user_4",
+    "timestamp": "2025-05-15T01:40:47.448745",
+    "action_type": "add_to_cart",
+    "metadata": {
+      "device": "Android",
+      "location": "Munich"
+    }
+  },
+  {
+    "user_id": "user_10",
+    "timestamp": "2025-05-12T12:08:47.448754",
+    "action_type": "add_to_cart",
+    "metadata": {
+      "device": "iOS",
+      "location": "Berlin"
+    }
+  },
+  {
+    "user_id": "user_8",
+    "timestamp": "2025-05-11T00:08:47.448763",
+    "action_type": "login",
+    "metadata": {
+      "device": "Web",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_10",
+    "timestamp": "2025-05-12T21:06:47.448772",
+    "action_type": "view_item",
+    "metadata": {
+      "device": "iOS",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_3",
+    "timestamp": "2025-05-11T18:11:47.448781",
+    "action_type": "purchase",
+    "metadata": {
+      "device": "iOS",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_4",
+    "timestamp": "2025-05-13T03:56:47.448787",
+    "action_type": "login",
+    "metadata": {
+      "device": "Web",
+      "location": "Berlin"
+    }
+  },
+  {
+    "user_id": "user_1",
+    "timestamp": "2025-05-11T23:59:47.448797",
+    "action_type": "purchase",
+    "metadata": {
+      "device": "Web",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_1",
+    "timestamp": "2025-05-14T09:57:47.448806",
+    "action_type": "logout",
+    "metadata": {
+      "device": "Android",
+      "location": "Berlin"
+    }
+  },
+  {
+    "user_id": "user_4",
+    "timestamp": "2025-05-09T15:08:47.448816",
+    "action_type": "view_item",
+    "metadata": {
+      "device": "Web",
+      "location": "Cairo"
+    }
+  },
+  {
+    "user_id": "user_9",
+    "timestamp": "2025-05-11T20:00:47.448825",
+    "action_type": "add_to_cart",
+    "metadata": {
+      "device": "Android",
+      "location": "Cairo"
+    }
+  },
+  {
+    "user_id": "user_3",
+    "timestamp": "2025-05-10T16:23:47.448836",
+    "action_type": "logout",
+    "metadata": {
+      "device": "iOS",
+      "location": "Cairo"
+    }
+  },
+  {
+    "user_id": "user_5",
+    "timestamp": "2025-05-10T07:19:47.448846",
+    "action_type": "view_item",
+    "metadata": {
+      "device": "Web",
+      "location": "Cairo"
+    }
+  },
+  {
+    "user_id": "user_8",
+    "timestamp": "2025-05-11T23:39:47.448855",
+    "action_type": "login",
+    "metadata": {
+      "device": "Web",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_9",
+    "timestamp": "2025-05-14T21:42:47.448860",
+    "action_type": "view_item",
+    "metadata": {
+      "device": "iOS",
+      "location": "Cairo"
+    }
+  },
+  {
+    "user_id": "user_7",
+    "timestamp": "2025-05-11T13:40:47.448866",
+    "action_type": "purchase",
+    "metadata": {
+      "device": "Web",
+      "location": "Berlin"
+    }
+  },
+  {
+    "user_id": "user_10",
+    "timestamp": "2025-05-16T07:47:47.448872",
+    "action_type": "login",
+    "metadata": {
+      "device": "Web",
+      "location": "Berlin"
+    }
+  },
+  {
+    "user_id": "user_3",
+    "timestamp": "2025-05-16T11:21:47.448877",
+    "action_type": "view_item",
+    "metadata": {
+      "device": "Web",
+      "location": "Cairo"
+    }
+  },
+  {
+    "user_id": "user_7",
+    "timestamp": "2025-05-15T07:19:47.448882",
+    "action_type": "logout",
+    "metadata": {
+      "device": "iOS",
+      "location": "Cairo"
+    }
+  },
+  {
+    "user_id": "user_4",
+    "timestamp": "2025-05-13T11:15:47.448887",
+    "action_type": "logout",
+    "metadata": {
+      "device": "Android",
+      "location": "Cairo"
+    }
+  },
+  {
+    "user_id": "user_10",
+    "timestamp": "2025-05-11T12:53:47.448893",
+    "action_type": "login",
+    "metadata": {
+      "device": "Android",
+      "location": "Cairo"
+    }
+  },
+  {
+    "user_id": "user_7",
+    "timestamp": "2025-05-10T05:46:47.448899",
+    "action_type": "logout",
+    "metadata": {
+      "device": "Android",
+      "location": "Cairo"
+    }
+  },
+  {
+    "user_id": "user_8",
+    "timestamp": "2025-05-13T08:55:47.448907",
+    "action_type": "view_item",
+    "metadata": {
+      "device": "iOS",
+      "location": "Berlin"
+    }
+  },
+  {
+    "user_id": "user_9",
+    "timestamp": "2025-05-12T15:54:47.448912",
+    "action_type": "purchase",
+    "metadata": {
+      "device": "iOS",
+      "location": "Cairo"
+    }
+  },
+  {
+    "user_id": "user_4",
+    "timestamp": "2025-05-13T11:33:47.448918",
+    "action_type": "view_item",
+    "metadata": {
+      "device": "Web",
+      "location": "Munich"
+    }
+  },
+  {
+    "user_id": "user_3",
+    "timestamp": "2025-05-14T19:07:47.448925",
+    "action_type": "view_item",
+    "metadata": {
+      "device": "iOS",
+      "location": "New York"
+    }
+  },
+  {
+    "user_id": "user_2",
+    "timestamp": "2025-05-10T06:15:47.448935",
+    "action_type": "add_to_cart",
+    "metadata": {
+      "device": "iOS",
+      "location": "Munich"
+    }
+  },
+  {
+    "user_id": "user_3",
+    "timestamp": "2025-05-09T21:28:47.448945",
+    "action_type": "login",
+    "metadata": {
+      "device": "Android",
+      "location": "Berlin"
+    }
+  },
+  {
+    "user_id": "user_9",
+    "timestamp": "2025-05-15T00:42:47.448955",
+    "action_type": "view_item",
+    "metadata": {
+      "device": "Android",
+      "location": "Cairo"
+    }
+  },
+  {
+    "user_id": "user_1",
+    "timestamp": "2025-05-13T21:33:47.448963",
+    "action_type": "purchase",
+    "metadata": {
+      "device": "Web",
+      "location": "Cairo"
+    }
+  },
+  {
+    "user_id": "user_2",
+    "timestamp": "2025-05-13T16:02:47.448968",
+    "action_type": "view_item",
+    "metadata": {
+      "device": "iOS",
+      "location": "Munich"
+    }
+  },
+  {
+    "user_id": "user_1",
+    "timestamp": "2025-05-12T08:03:47.448974",
+    "action_type": "logout",
+    "metadata": {
+      "device": "iOS",
+      "location": "Munich"
+    }
+  },
+  {
+    "user_id": "user_7",
+    "timestamp": "2025-05-12T14:06:47.448980",
+    "action_type": "login",
+    "metadata": {
+      "device": "Web",
+      "location": "Munich"
+    }
+  },
+  {
+    "user_id": "user_7",
+    "timestamp": "2025-05-15T18:14:47.448990",
+    "action_type": "login",
+    "metadata": {
+      "device": "Android",
+      "location": "New York"
+    }
+  }
+]

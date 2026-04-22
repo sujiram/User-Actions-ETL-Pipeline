@@ -1,0 +1,18 @@
+-- Null checks
+SELECT COUNT(*) AS null_user_key
+FROM fact_user_actions
+WHERE user_key IS NULL;
+
+SELECT COUNT(*) AS null_action_key
+FROM fact_user_actions
+WHERE action_key IS NULL;
+
+SELECT COUNT(*) AS null_event_timestamp
+FROM fact_user_actions
+WHERE event_timestamp IS NULL;
+
+-- Duplicate checks
+SELECT user_key, action_key, event_timestamp, COUNT(*) AS cnt
+FROM fact_user_actions
+GROUP BY user_key, action_key, event_timestamp
+HAVING COUNT(*) > 1;

@@ -1,0 +1,82 @@
+services:
+  postgres:
+    image: postgres:15
+    container_name: postgres_dw
+    environment:
+      POSTGRES_DB: analytics
+      POSTGRES_USER: etl_user
+      POSTGRES_PASSWORD: etl_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  airflow-init:
+    build: .
+    container_name: airflow_init
+    depends_on:
+      - postgres
+    environment:
+      AIRFLOW__CORE__EXECUTOR: SequentialExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://etl_user:etl_password@postgres:5432/analytics
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: 5432
+      POSTGRES_DB: analytics
+      POSTGRES_USER: etl_user
+      POSTGRES_PASSWORD: etl_password
+      RAW_FILE_PATH: /opt/airflow/data/raw_logs.json
+    command: >
+      bash -c "
+      airflow db migrate &&
+      airflow users create
+      --username admin
+      --firstname admin
+      --lastname admin
+      --role Admin
+      --email admin@example.com
+      --password admin
+      "
+
+  airflow-webserver:
+    build: .
+    container_name: airflow_webserver
+    restart: always
+    depends_on:
+      - postgres
+      - airflow-init
+    environment:
+      AIRFLOW__CORE__EXECUTOR: SequentialExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://etl_user:etl_password@postgres:5432/analytics
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: 5432
+      POSTGRES_DB: analytics
+      POSTGRES_USER: etl_user
+      POSTGRES_PASSWORD: etl_password
+      RAW_FILE_PATH: /opt/airflow/data/raw_logs.json
+    ports:
+      - "8080:8080"
+    command: webserver
+
+  airflow-scheduler:
+    build: .
+    container_name: airflow_scheduler
+    restart: always
+    depends_on:
+      - postgres
+      - airflow-init
+    environment:
+      AIRFLOW__CORE__EXECUTOR: SequentialExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://etl_user:etl_password@postgres:5432/analytics
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: 5432
+      POSTGRES_DB: analytics
+      POSTGRES_USER: etl_user
+      POSTGRES_PASSWORD: etl_password
+      RAW_FILE_PATH: /opt/airflow/data/raw_logs.json
+    command: scheduler
+
+volumes:
+  postgres_data:
