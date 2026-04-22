@@ -7,7 +7,7 @@ RUN pip install --no-cache-dir -r /requirements.txt
 USER airflow
 WORKDIR /opt/airflow
 
-COPY user_actions_etl_dag.py /opt/airflow/dags/user_actions_etl_dag.py
+COPY dags/user_actions_etl_dag.py /opt/airflow/dags/user_actions_etl_dag.py
 COPY ETL_Pipeline.py /opt/airflow/ETL_Pipeline.py
 COPY Config.py /opt/airflow/Config.py
 COPY raw_logs.json /opt/airflow/data/raw_logs.json
